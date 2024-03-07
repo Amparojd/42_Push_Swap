@@ -27,7 +27,8 @@
         <p>¡Listo!</p>
         <p>El siguiente paso, es crear un índice e indexar los números de nuestra lista de menor a mayor. </p>
         <img src= ./create_index.png/ width = "300">
-        <p>Ahora debemos pasar a stack B todos aquellos números, en los que su índice sea menor a la mediana. Por ejemplo, si tenemos 8 números como en mi lista, la mediana sería 4 + 1 </p>
+        <p>Ahora debemos pasar a stack B todos aquellos números, en los que su índice sea menor a la mitad. Por ejemplo, si tenemos 8 números como en mi lista, la mitad sería 4 + 1 (+ 1 por los casos en que nuestra lista sea impar). E iremos comparando nuestro índice con ese 4 + 1. Si es menor irá para stack B, si no lo es, lo rotaremos al final. Así hasta que deje de cumplirse la condición</p>
+        <p>Cuando se deje de cumplir empujaremos el resto de números, sin distinción, excepto los 3 más grandes</p>
         <p>Ejemplo:<code>close(fd_infile)</code>
         <p>También utilizamos <code>close()</code> para cerrar el fd del pipe que no vamos a utilizar, aunque eso lo explico en <code>pipe()</code></p>
         <p><h4><code>read():</code></h4>Una vez abierto el archivo con <code>open()</code>, esta función nos permite leer los datos que hay en ese archivo.</p>
