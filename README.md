@@ -20,9 +20,13 @@
         <p>Son varios los algoritmos que se pueden utilizar de forma efectiva, como Radix, Sort list, etc. Mi proyecto se basa en este "https://medium.com/@ayogun/push-swap-c1f5d2d41e97"</p>
         <h2 id="funciones">Funcionamiento paso a paso</h2>
         <p>Empezamos creando dos Stack (A y B)</p>
-        <img src= ./stack_vacio.
-        <p><h4><code>open():</code></h4>Esta función nos permite abrir un archivo dentro de un programa. Nos permite acceder a ese archivo para leer, escribir en él, etc.</p>
-        <p>Ejemplo:<code>fd_infile = open("text.txt", O_RDONLY);</code>Con esto le hemos dado permiso para abrirlo y solo leerlo (O_RDONLY).</p>
+        <img src= ./stack_vacio.png/ width = "300">
+        <p>En Stack A volcaremos toda la pila de números que nos proporcionen</p>
+        <p>En este ejemplo vamos a incluir 9 números aleatorios, evidentemente sin ordenar</p>
+        <img src= ./stack_vacio.png/ width = "300">
+        <p>¡Listo!</p>
+        <p>El siguiente paso, es crear un índice e indexar los números de nuestra lista de menor a mayor. </p>
+        <img src= ./stack_vacio.png/ width = "300">
         <p><h4><code>close():</code></h4>Esta la usaremos para cerrar el archivo que hemos abierto antes. Al cerrarlo, liberamos los recursos asociados con ese archivo en el sistema operativo (liberación de memoria y otro recursos para gestionar el archivo).</p>
         <p>Ejemplo:<code>close(fd_infile)</code>
         <p>También utilizamos <code>close()</code> para cerrar el fd del pipe que no vamos a utilizar, aunque eso lo explico en <code>pipe()</code></p>
