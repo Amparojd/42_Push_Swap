@@ -29,8 +29,12 @@
         <img src= ./create_index.png/ width = "300">
         <p>Ahora debemos pasar a stack B todos aquellos números, en los que su índice sea menor a la mitad. Por ejemplo, si tenemos 8 números como en mi lista, la mitad sería 4 + 1 (+ 1 por los casos en que nuestra lista sea impar). E iremos comparando nuestro índice con ese 4 + 1. Si es menor irá para stack B, si no lo es, lo rotaremos al final. Así hasta que deje de cumplirse la condición</p>
         <p>Cuando se deje de cumplir empujaremos el resto de números, sin distinción, excepto los 3 más grandes</p>
-        <img src= ./stack_a1.png/ width = "300">
-        <p>Ejemplo:<code>close(fd_infile)</code>
+        <img src= ./rotate.png width = "300">
+        <img src= ./number_p.png width = "300">
+        <img src= ./stackb.png width = "300">
+        <p>LLega un momento en que la condición de "la mitad más 1" deja de cumplirse por la escasez de números que vamos dejando en Stack A, en ese caso, le diremos que empuje el resto de números que nos queden menos los 3 más grandes (dibujo derecho).</p>
+        <p>Una vez tenemos los más pequeños en stack B, vamos a ordenar los 3 números más grandes que nos quedaron en Stack A (seguimos manejando el index como forma de ordenamiento).
+            <p>Y nos quedaría así</p>
         <p>También utilizamos <code>close()</code> para cerrar el fd del pipe que no vamos a utilizar, aunque eso lo explico en <code>pipe()</code></p>
         <p><h4><code>read():</code></h4>Una vez abierto el archivo con <code>open()</code>, esta función nos permite leer los datos que hay en ese archivo.</p>
         <p>Ejemplo: <code>ssize_t bytes_leidos = read(fd_infile, buffer, sizeof(buffer))</code>. Este ejemplo lee datos del archivo y los almacena en búfer</p>
