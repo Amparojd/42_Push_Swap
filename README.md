@@ -22,7 +22,7 @@
         <p>Empezamos creando dos Stack (A y B)</p>
         <img src= ./stack_vacio.png/ width = "300">
         <p>En Stack A volcaremos toda la pila de números que nos proporcionen</p>
-        <p>En este ejemplo vamos a incluir 9 números aleatorios, evidentemente sin ordenar</p>
+        <p>En este ejemplo vamos a incluir 8 números aleatorios, evidentemente sin ordenar</p>
         <img src= ./stack_a1.png/ width = "300">
         <p>¡Listo!</p>
         <p>El siguiente paso, es crear un índice e indexar los números de nuestra lista de menor a mayor. </p>
