@@ -23,11 +23,11 @@
         <img src= ./stack_vacio.png/ width = "300">
         <p>En Stack A volcaremos toda la pila de números que nos proporcionen</p>
         <p>En este ejemplo vamos a incluir 9 números aleatorios, evidentemente sin ordenar</p>
-        <img src= ./stack_vacio.png/ width = "300">
+        <img src= ./stack_a1.png/ width = "300">
         <p>¡Listo!</p>
         <p>El siguiente paso, es crear un índice e indexar los números de nuestra lista de menor a mayor. </p>
-        <img src= ./stack_vacio.png/ width = "300">
-        <p><h4><code>close():</code></h4>Esta la usaremos para cerrar el archivo que hemos abierto antes. Al cerrarlo, liberamos los recursos asociados con ese archivo en el sistema operativo (liberación de memoria y otro recursos para gestionar el archivo).</p>
+        <img src= ./create_index.png/ width = "300">
+        <p>Ahora debemos pasar a stack B todos aquellos números, en los que su índice sea menor a la mediana. Por ejemplo, si tenemos 8 números como en mi lista, la mediana sería 4 + 1 </p>
         <p>Ejemplo:<code>close(fd_infile)</code>
         <p>También utilizamos <code>close()</code> para cerrar el fd del pipe que no vamos a utilizar, aunque eso lo explico en <code>pipe()</code></p>
         <p><h4><code>read():</code></h4>Una vez abierto el archivo con <code>open()</code>, esta función nos permite leer los datos que hay en ese archivo.</p>
